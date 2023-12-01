@@ -94,7 +94,6 @@ pyrsistent==0.19.3
 PyScreeze==0.1.28
 python-dateutil==2.8.2
 python-json-logger==2.0.7
-pytweening==1.0.7
 pywin32==306
 pywinpty==2.0.10
 PyYAML==6.0
