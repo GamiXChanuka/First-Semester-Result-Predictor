@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+SC:wght@300&family=Edu+SA+Beginner&display=swap');/*Bebas Neue*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+SC:wght@300&display=swap'); /*Cormorant SC*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap'); /*'Poppins', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');/*Oswald*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap'); /* Ubuntu */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url("nasa.jpg");
+    min-height: 100vh !important; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding: 0 10px;
+    display: grid;
+    grid-template-rows: 1fr 4fr 0.5fr ;
+}
+.wrapper{
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    margin: 20px auto;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.125);
+    padding: 30px;
+    border-radius: 2%;
+    opacity: 0.9;
+}
+  
+.wrapper .title{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Cormorant SC;
+    opacity: 1 !important;
+
+}
+  
+.wrapper .form{
+    width: 100%;
+    opacity: 1 !important;
+   
+}
+  
+.wrapper .form .inputfield{
+    margin-bottom: 17px;
+    display: flex;
+    align-items: center;
+    
+}
+  
+.wrapper .form .inputfield label{
+    width: 200px;
+    color: black;
+    margin-right: 10px;
+    font-size: 16.3px;
+    font-family:  "Times New Roman", Times, serif;
+}
+
+
+.wrapper .form .inputfield .input{
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+
+.wrapper .form .inputfield .custom_select{
+    position: relative;
+    width: 100%;
+    height: 37px;
+}
+  
+.wrapper .form .inputfield .custom_select:before{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+  
+.wrapper .form .inputfield .custom_select select{
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0.8px solid rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+.wrapper .form .inputfield .btn{
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 18px; 
+    margin-top: 20px;
+    border: 2px;
+    background:  black;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+    border: 2px solid #224438;
+}
+
+.wrapper .form .inputfield .btn:hover{
+    background:  rgb(255, 255, 255);
+    color: #000000;
+    border: 2px solid #224438;
+    transition-duration: 0.7s
+}
+  
+.result .mainLabel{
+    text-align: center;
+    color: rgb(8, 116, 193);
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.result .secondLabel{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(64, 64, 64);
+    font-size: 10.4px;
+}
+
+
+  
